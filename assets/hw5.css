@@ -1,0 +1,568 @@
+/*** default font ***/
+body {
+    margin: 0;
+    font-family: 'Raleway', 'Poppins', sans-serif;
+  }
+
+/*** top navigation ***/
+#cmuHome {
+  float: left;
+  padding: 0;
+  width: 5%;
+  height: 4%;
+}
+
+#cmuHome a {
+  padding: 0;
+}
+
+#cmuHome:hover {
+  opacity: 0.7;
+}
+
+.topnav {
+  overflow: hidden;
+  }
+  
+.topnav a {
+    float: right;
+    color: #c41230;
+    text-align: center;
+    padding: 1% 1%;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+  }
+  
+.topnav a:hover {
+    background-color: #c41230;
+    color: white;
+  }
+  
+.topnav a.active {
+    background-color: #c41230;
+    color: white;
+  }
+
+#phone {
+  width: 2%;
+  vertical-align: middle;
+}
+
+#phoneNum {
+  vertical-align: middle;
+  font-size: 1.5vw;
+  color:#c41230;
+  font-weight:600;
+  display: inline-block;
+}
+
+/*** section title for each page ***/  
+.homeTitle {
+  padding-top: 2%;
+  padding-left: 4%;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+
+/*** larger button formatting ***/
+.buttons {
+  padding-top: 1%;
+  padding-left: 4%;
+}
+
+.button {
+  margin: 1%;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: #c41230;
+  border: #c41230 0.15em solid;
+  color: white;
+  padding: 1% 1.5%;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.4vw;
+  cursor: pointer;
+  border-radius: 0.8em;
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+  background-color: white;
+  border: #c41230 0.15em solid;
+  color: #c41230;
+}
+
+.button2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/*** general text formatting ***/
+p {
+  font-family: 'IBM Plex Sans';
+  font-size: 1.2vw;
+}
+
+ul {
+  font-family: 'IBM Plex Sans';
+  font-size: 1.2vw;
+}
+
+h2 {
+  font-weight: 600;
+  font-size:1.7vw;
+  margin-bottom: 0;
+}
+
+
+
+/*** home page body text formatting ***/
+.homeBody {
+  padding-top: 2%;
+  padding-left: 4%;
+}
+
+
+
+/*** appointments page formatting ***/
+#leftBox {
+  float:left;
+  width:40%;
+  padding-left: 4%;
+}
+
+#rightBox {
+  float:left;
+  width:30%;
+}
+
+#apptDetails {
+  color: #c41230;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2vw;
+}
+
+
+
+/*** button formatting ***/
+.smallButton {
+  margin: 1.5% 0% 1.5% 0%;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: white;
+  border: #c41230 0.15em solid;
+  color: #c41230;
+  padding: 1% 1.5%;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.2vw;
+  cursor: pointer;
+  border-radius: 0.6em;
+}
+
+.smallButton:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/*** appointment type input formatting ***/
+.radioSelect {
+  float:left;
+  padding-left: 4%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*** schedule appointment location container ***/
+.bodyInput1 {
+  float: left;
+  width: 20%;
+  padding-left: 4%;
+}
+
+/*** schedule appointment date container ***/
+.bodyInput2 {
+  float: left;
+  width: 40%;
+  padding-left: 2%;
+}
+
+
+
+/*** schedule appointment time container ***/
+.bodyInput3 {
+  float: right;
+  width: 30%;
+}
+
+
+
+/*** schedule appointment footer buttons formatting ***/
+#leftButtons {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  padding-left: 4%;
+  padding-bottom: 1.5%;
+}
+
+#rightButtons {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  padding-right: 4%;
+  padding-bottom: 1.5%;
+}
+
+.smallButton2 {
+  margin: 1.5% 0% 1.5% 0%;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: #c41230;
+  border: #c41230 0.15em solid;
+  color: white;
+  padding: 1% 1.5%;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.2vw;
+  cursor: pointer;
+  border-radius: 0.6em;
+}
+
+.smallButton2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/*** schedule appointment calendar formatting ***/
+.month {
+  padding: 3% 1.5%;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: black;
+  list-style-type: none;
+  font-size: 1.4vw;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 0.8%;;
+}
+
+.month .next {
+  float: right;
+  padding-top: 0.8%;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 1% 0%;
+  background-color: white;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 1% 0%;
+  background: white;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size:1vw;
+  color: #c4c4c4;
+}
+
+.days input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.days label {
+  display: inline-block;
+  background-color: #ffe5e5;
+  padding: 10% 20%;
+  font-size: 1vw;
+  border: 2px solid #ffe5e5;
+  border-radius: 100px;
+  color: #710000;
+  font-weight: 600;
+}
+
+.days input[type="radio"]:checked + label {
+  background-color:#c41230;
+  border-color: #710000;
+  color: white;
+}
+
+.days input[type="radio"]:focus + label {
+  border: 2px dashed #710000;
+}
+
+
+.calendar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.AM {
+  float: left;
+  width: 30%;
+  position: relative;
+}
+
+.PM {
+  float: right;
+  width: 30%;
+  position: relative;
+  margin-right: 8%;
+}
+
+
+.buttonGroup input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.buttonGroup label {
+  display: inline-block;
+  background-color: #ffe5e5;
+  padding: 4% 8%;
+  margin: 9% 9% 0% 0%;
+  font-size: 1vw;
+  border: 2px solid #ffe5e5;
+  border-radius: 0.6em;
+  color: #710000;
+  font-weight: 600;
+}
+
+.buttonGroup input[type="radio"]:checked + label {
+  background-color:#c41230;
+  border-color: #710000;
+  color: white;
+}
+
+.buttonGroup input[type="radio"]:focus + label {
+  border: 2px dashed #710000;
+}
+
+#cmumap {
+  height: 70%;
+  width:70%;
+}
+
+/*** health history page formatting ***/
+.healthHistory1 {
+  float: left;
+  width: 40%;
+  padding-left: 5%;
+}
+
+#historyTable {
+  width: 100%;
+  margin: 1% 0% 1% 0%;
+  font-family: "IBM Plex Sans";
+}
+
+#historyTable td {
+  width: 50%;
+  font-weight: 400;
+  color: #454545;
+}
+
+#historyTable th {
+  font-weight: 800;
+  width: 50%;
+}
+
+#historyTable .leftColumn {
+  text-align: left;
+}
+
+#historyTable .rightColumn {
+  text-align: right;
+}
+
+#historyTable .rightDates {
+  text-align: right;
+  font-weight: 600;
+  color: #454545;
+}
+
+#immunTable {
+  width: 100%;
+  margin: 1% 0% 1% 0%;
+  font-family: "IBM Plex Sans";
+}
+
+#immunTable td {
+  width: 50%;
+  font-weight: 400;
+  color: #454545;
+}
+
+#immunTable th {
+  font-weight: 800;
+  width: 50%;
+}
+
+#immunTable .leftColumn {
+  text-align: left;
+}
+
+#immunTable .rightColumn {
+  text-align: right;
+}
+
+#immunTable .rightDates {
+  text-align: right;
+  font-weight: 600;
+  color: #454545;
+}
+
+#immunTable .rightStatuses {
+  text-align: right;
+  font-weight: 600;
+  color: #c41230;
+}
+
+.healthHistory2 {
+  float: left;
+  width: 40%;
+  padding-left: 10%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 2%;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 50%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.leftConfirmation {
+  padding-top: 2%;
+  padding-left: 4.5%;
+  float: left;
+}
+
+.rightMap {
+  float: right;
+  right: 0;
+  padding-right: 4%;
+  height: 50%;
+  width: 10%;
+}
+
+.footerButton2 {
+  margin: 1% 0%;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: #c41230;
+  border: #c41230 0.15em solid;
+  color: white;
+  padding: 0.5vw;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.2vw;
+  cursor: pointer;
+  border-radius: 0.6em;
+}
+
+.footerButton2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.footerButton {
+  margin: 1% 0%;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: white;
+  border: #c41230 0.15em solid;
+  color: #c41230;
+  padding: 0.5vw;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.2vw;
+  cursor: pointer;
+  border-radius: 0.6em;
+  
+}
+
+.footerButton:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+form {
+  font-size: 1.2vw;
+}
